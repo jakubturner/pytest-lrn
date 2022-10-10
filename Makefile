@@ -6,10 +6,10 @@ test:
 	python -m pytest -vv --cov=src tests
 
 format:
-	black *.py
+	black src/*.py
 
 
 lint:
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C src
 
 all: install lint test format
