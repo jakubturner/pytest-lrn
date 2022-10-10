@@ -1,4 +1,4 @@
-from hello import more_hello, more_goodbye
+from src.hello import more_hello, more_goodbye
 
 
 def test_more_hello():
