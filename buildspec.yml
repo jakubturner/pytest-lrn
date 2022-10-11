@@ -8,4 +8,4 @@ phases:
         commands:
             - make lint
             - make test
-            - male format
+            - make format
