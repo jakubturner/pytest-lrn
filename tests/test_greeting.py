@@ -1,5 +1,5 @@
-from src.greeting import name
+from src.greeting import my_name
 
 
 def test_name() -> None:
-    assert name("Kuba") == "My name is: Kuba"
+    assert my_name("Kuba") == "My name is: Kuba"
